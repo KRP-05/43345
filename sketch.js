@@ -31,6 +31,8 @@ function draw() {
     if(mousePressedOver(playbutton)){
       gamestate=1
     }
+if(touches.length>0){
+	gamestate=1}
     
   }
   if(gamestate===1){
